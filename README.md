@@ -122,7 +122,7 @@ for (var key in view.subViews) {
 
 Instead of using VFL, you can also add constraints directly.
 The properties are identical to those of [NSLayoutConstraint](https://developer.apple.com/library/ios/documentation/AppKit/Reference/NSLayoutConstraint_Class).
-
+To constrain view1 its parent view, use *null* for view2.
 ```
 view.addConstraint({
     view1: 'child3',
